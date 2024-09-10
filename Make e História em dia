@@ -1,0 +1,56 @@
+```html
+   <!DOCTYPE html>
+   <html lang="pt-BR">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Site com Vídeo</title>
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <div class="container">
+           <h1>Vídeo Sobre o Projeto</h1>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex0mf_oS7Xs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <p>
+               Este vídeo apresenta uma explicação detalhada sobre o projeto, discutindo seus principais aspectos e funcionalidades. 
+               A descrição no vídeo oferece uma visão geral completa e demonstra como utilizar as principais características do projeto de maneira eficaz.
+           </p>
+       </div>
+   </body>
+   </html>
+   body {
+       margin: 0;
+       padding: 0;
+       background-color: #6a0dad; /* Roxo */
+       font-family: Arial, sans-serif;
+       color: white;
+       text-align: center;
+   }
+
+   .container {
+       max-width: 800px;
+       margin: 0 auto;
+       padding: 20px;
+       background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro translúcido para contraste */
+       border-radius: 8px;
+   }
+
+   h1 {
+       margin-bottom: 20px;
+   }
+
+   iframe {
+       width: 100%;
+       max-width: 560px;
+       height: 315px;
+       margin-bottom: 20px;
+   }
+
+   p {
+       font-size: 1.2em;
+   }
+   
+
+
+
+    
